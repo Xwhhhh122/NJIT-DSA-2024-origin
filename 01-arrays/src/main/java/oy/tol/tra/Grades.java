@@ -4,6 +4,7 @@ package oy.tol.tra;
  * A simple array of student grades to be used in testing
  * misbehaving algorithm for reversing the array.
  */
+
 public class Grades {
 
    private Integer [] grades = null;
@@ -19,6 +20,7 @@ public class Grades {
       }
    }
 
+
    /**
     * The method to reverse the internal Java int array.
     */
@@ -31,7 +33,7 @@ public class Grades {
        5. Fix the issue.
        6. Transform the algorithm to <strong>use</strong> the generic one from Algorithms.java, as instructed in the readme file.
       */
-      Algorithms.reverse(this.grades);
+      Algorithms.reverse(grades);
    }
 
    /**
@@ -46,7 +48,7 @@ public class Grades {
        5. Fix the issue.
        6. Transform the algorithm to <strong>use</strong> the generic one from Algorithms.java as instructed in the readme file.
       */
-       Algorithms.sort(this.grades);
+      Algorithms.sort(grades);
    }
 
    /**
